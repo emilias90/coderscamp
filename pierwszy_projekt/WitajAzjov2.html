@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Witaj Azjo</title><meta name="description" content="Strona poświęcona podróżom.">
+  <link rel="stylesheet" href="style2.css" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+
+      <nav class="flex-nav">
+        <a href="#" class="toggleNav"><i class="fa fa-navicon"> Menu</i></a>
+        <ul class="open">
+          <li><a href="#"><b>Who we are?</b></a></li>
+          <li><a href="#"><b>Lifestyle</b></a></li>
+          <li><a href="#"><b>Travelling</b></a></li>
+          <li><a href="#"><b>Contact me</b></a></li>
+          <li class="social">
+            <a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li class="social">
+            <a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li class="social">
+            <a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li class="social">
+            <a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </nav> 
+      
+      <header class="top">
+        <div class="mainPhoto"></div>
+      </header>
+
+      <div class="containerAboutMe">
+        <div class="titleAboutMe"> <h3>About Guide</h3></div>
+             <div class="aboutMe">
+              <div class="box1">Full name: Emilia<br>Age: 29 Years <br>Telephone: +48 112 225 558 <br> E-mail: adres-email@op.pl></div>
+              <div class="box2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+             </div>
+      </div> 
+
+      <div class="gallery">
+        <h3>Our Destinations</h3>
+          <div class="grid-container">
+            <article class="location-listing">
+              <a class="location-title" href="#">Thailand</a>
+               <div class="location-image">
+                  <a href="#"><img src="zdjecia/11.jpg" alt="Thailand"></a>
+                </div>
+            </article>
+          
+            <article class="location-listing">
+               <a class="location-title" href="#">Vietnam</a>
+                <div class="location-image">
+                 <a href="#"><img src="zdjecia/12.jpg" alt="Vietnam"></a>
+                </div>
+            </article>
+          
+             <article class="location-listing">
+              <a class="location-title" href="#">Chiang Mai</a>
+                <div class="location-image">
+                  <a href="#"><img src="zdjecia/13.jpg" alt="Chiang Mai"></a>
+                 </div>
+             </article>
+          
+             <article class="location-listing">
+               <a class="location-title" href="#">Bali</a>
+                 <div class="location-image">
+                  <a href="#"><img src="zdjecia/14.jpg" alt="Bali">  </a>
+                </div>
+              </article>
+          
+             <article class="location-listing">
+              <a class="location-title" href="#">Cambodia</a>
+                <div class="location-image">
+                  <a href="#"><img src="zdjecia/15.jpg" alt="Cambodia"></a>
+                </div>
+              </article>
+          
+             <article class="location-listing">
+               <a class="location-title" href="#">Birma</a>
+                 <div class="location-image">
+                  <a href="#"><img src="zdjecia/16.jpg" alt="Birma"></a>
+                 </div>
+             </article>
+          </div>
+      </div>
+
+      <div class="formular">
+        <h3> Contact us</h3>
+          <div class="formularBox">
+              <div class="formularAside1">
+                  <div><p><i class="fa fa-envelope"></i></p></div>
+                  <div class="giveInfo"><p>Please describe your question. Send me a message and I will answer you as soon as possible!</p></div>
+                  <div>
+                    <ul class="socialIcons"> 
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </ul>
+                  </div>
+                  <div class="name">Travell Office <br>Poznań, Poland</div>
+                  <div class="adres">ul. Kopernika 20.19<br>+48 112 225 558<br><a href="#">adres-email@op.pl></a></div>
+                </div>
+            <div class="formularAside2">
+              <h3> Let's start!</h3>
+              <div><label><input type="text" placeholder="Name"></label></div>
+              <div><label><input type="text" placeholder="Your e-mail adress"></label></div>
+              <div><label><input type="text" placeholder="Topic"></label></div>
+              <div><label><textarea placeholder="Message"></textarea></label></div>
+              <div><label> <input class="submitBottom" type="submit" value="Send"> </label></div>
+            </div>  
+          </div>
+         </div>
+      </div>
+
+<hr>
+     <footer>
+       <p>Copyright © 2019  Emilia Staśkowiak</p>
+     </footer>
+    </div>
+     
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    
+    $(function() {
+      $('.toggleNav').on('click',function() {
+        $('.flex-nav ul').toggleClass('open');
+      });
+    });
+  </script>
+  
+</body>
