@@ -17,4 +17,4 @@ Technologies used for building this Web page:
 
 ### Demo
 
-[![hello Asia](demo/demo.gif)]
+![hello Asia](demo/demo.gif)
