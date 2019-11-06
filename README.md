@@ -1,5 +1,5 @@
 
-This was my first project to comlete task during Coderscamp.
+This was my first project to complete task during Coderscamp.
 
 # Project Title
 
